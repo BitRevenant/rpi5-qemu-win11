@@ -169,17 +169,17 @@ The file name of the drive it's `win11-arm64.img`. You can choose another name i
 Now you need the UEFI firmware to run Windows 11 correctly. You can download required files with sending these commands.
 
 ``` bash
-wget https://raw.githubusercontent.com/Marko97IT/rpi5-qemu-win11/refs/heads/main/assets/uefi/QEMU_EFI-pflash.raw
+wget https://raw.githubusercontent.com/BitRevenant/rpi5-qemu-win11/refs/heads/main/assets/uefi/QEMU_EFI-pflash.raw
 ```
 
 ``` bash
-wget https://raw.githubusercontent.com/Marko97IT/rpi5-qemu-win11/refs/heads/main/assets/uefi/QEMU_VARS-pflash.raw
+wget https://raw.githubusercontent.com/BitRevenant/rpi5-qemu-win11/refs/heads/main/assets/uefi/QEMU_VARS-pflash.raw
 ```
 
 Download VirtIO drivers with this command.
 
 ``` bash
-wget https://raw.githubusercontent.com/Marko97IT/rpi5-qemu-win11/refs/heads/main/assets/drivers/virtio-win-0.1.266.iso
+wget https://raw.githubusercontent.com/BitRevenant/rpi5-qemu-win11/refs/heads/main/assets/drivers/virtio-win-0.1.266.iso
 ```
 
 Also, you need to download the ISO of Windows 11 ARM64. You can use the command `wget` to download it from the Raspberry Pi 5.
@@ -189,7 +189,7 @@ An example of command can be this.
     Consider the **Windows 11 IoT Enterprise** edition. It is specifically built for IoT devices.
 
 ``` bash
-wget https://site.com/urlwin11.iso
+wget https://site.com/win11.iso
 ```
 
 Now, you can start the VM and install Windows 11. Run this command. If you have a little bit of skill you can tweak the command to customize your VM.
